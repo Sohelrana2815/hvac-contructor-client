@@ -1,14 +1,21 @@
-import ContactForm from "@/components/modules/contact/contact-form";
+import ContactHero from "@/components/modules/contact/ContactHero";
+import ContactSection from "@/components/modules/contact/ContactSection";
+import ServiceAreaMapSection from "@/components/modules/contact/ServiceAreaMapSection";
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen py-12 px-4 bg-gray-50">
-      <div className="text-center mb-8">
-        <h1 className="text-3xl font-extrabold text-gray-900">Contact Our HVAC Team</h1>
-        <p className="text-gray-600 mt-2">We are available 24/7 for emergency repairs and consultations.</p>
-      </div>
-      
-      <ContactForm />
+    <main className="min-h-screen bg-background text-foreground">
+      {/* 1. Top Banner & 4 Info Cards */}
+      <ContactHero />
+
+      {/* 2. Side-by-Side Information & Form Section */}
+      <ContactSection />
+
+      {/* 3. Service Area & Map Section */}
+      <ServiceAreaMapSection
+        locationName="San Antonio"
+        businessAddress="1710 Lookout Rd, San Antonio, TX 78232"
+      />
     </main>
   );
 }

@@ -50,7 +50,7 @@ export default function Navbar() {
             <span className="text-base">
               <Phone />
             </span>
-            <span>24/7 Emergency Hotline: (123) 456-7890</span>
+            <span>Call 123-456-7890</span>
           </a>
         </div>
 

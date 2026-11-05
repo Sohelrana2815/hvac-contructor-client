@@ -75,7 +75,7 @@ export default function MobileNav() {
               <span className="text-base">
                 <Phone />
               </span>
-              <span>24/7 Emergency Hotline: (123) 456-7890</span>
+              <span>Call 123-456-7890</span>
             </a>
           </div>
         </div>

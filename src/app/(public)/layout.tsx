@@ -1,5 +1,6 @@
 // import Footer from "@/components/shared/Footer";
 
+import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
 
 export default function MainLayout({
@@ -15,8 +16,12 @@ export default function MainLayout({
       </header>
       {/* Full width canvas for all page sections */}
       <main className="flex-1 w-full">{children}</main>
-      {/* <Footer /> */}
-      {/* Footer */}
+      {/* Global HVAC Footer Component */}
+      <Footer
+        phoneNumber="(210) 380-8000"
+        emailAddress="support@sbscbusiness.com"
+        locationName="San Antonio & Bexar County"
+      />
     </div>
   );
 }
