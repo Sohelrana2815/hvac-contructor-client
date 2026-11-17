@@ -19,8 +19,8 @@ export default function MainLayout({
       {/* Global HVAC Footer Component */}
       <Footer
         phoneNumber="(210) 380-8000"
-        emailAddress="support@sbscbusiness.com"
-        locationName="San Antonio & Bexar County"
+        emailAddress="support@business.com"
+        locationName="Location"
       />
     </div>
   );

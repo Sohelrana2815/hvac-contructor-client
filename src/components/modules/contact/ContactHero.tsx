@@ -19,7 +19,7 @@ export default function ContactHero() {
             Home / Contact Us
           </p>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">
-            Contact <span className="text-primary">SBSC HVAC Services</span>
+            Contact <span className="text-primary">Business Name</span>
           </h1>
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
             Call the dispatch line any hour of any day, or send the form and we will come back to you in no time.

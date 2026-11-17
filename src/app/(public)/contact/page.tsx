@@ -13,8 +13,8 @@ export default function ContactPage() {
 
       {/* 3. Service Area & Map Section */}
       <ServiceAreaMapSection
-        locationName="San Antonio"
-        businessAddress="1710 Lookout Rd, San Antonio, TX 78232"
+        locationName="Your Location Name"
+        businessAddress="Your Business Address"
       />
     </main>
   );

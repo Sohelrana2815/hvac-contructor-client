@@ -10,8 +10,8 @@ interface FooterProps {
 
 export default function Footer({
   phoneNumber = "(210) 380-8000",
-  emailAddress = "support@sbsc_hvac.com",
-  locationName = "San Antonio & Surrounding Areas",
+  emailAddress = "support@hvac.com",
+  locationName = "Your Location",
 }: FooterProps) {
   return (
     <footer className="bg-card text-foreground border-t border-border">
@@ -48,7 +48,7 @@ export default function Footer({
               <div className="relative w-40 h-12">
                 <Image
                   src="/logo.png" 
-                  alt="SBSC HVAC Logo"
+                  alt="HVAC Logo"
                   fill
                   className="object-contain object-left"
                 />

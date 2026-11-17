@@ -39,6 +39,16 @@ export const SHOWCASE_ITEMS: ShowcaseItem[] = [
     iconName: "Zap",
   },
   {
+    id: "ductwork_design",
+    title: "DUCTWORK & IAQ",
+    subtitle: "Pure Air & Ventilation",
+    description:
+      "Professional duct cleaning, sealing, and advanced air purifiers to eliminate allergens and optimize airflow.",
+    image:
+      "https://res.cloudinary.com/dt683zwm2/image/upload/v1793718899/DUCTWORK_IAQ-HVAC_b4jsy0.jpg",
+    iconName: "Wind",
+  },
+  {
     id: "ductwork",
     title: "DUCTWORK & IAQ",
     subtitle: "Pure Air & Ventilation",

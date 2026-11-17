@@ -8,8 +8,8 @@ interface ServiceAreaMapProps {
 }
 
 export default function ServiceAreaMapSection({
-  locationName = "San Antonio",
-  businessAddress = "1710 Lookout Rd, San Antonio, TX 78232",
+  locationName = "Your Location",
+  businessAddress = "Your business address",
   googleMapsUrl = "https://maps.google.com",
 }: ServiceAreaMapProps) {
   return (
@@ -44,7 +44,7 @@ export default function ServiceAreaMapSection({
             {/* Central Map Pin Marker Indicator */}
             <div className="absolute z-10 flex flex-col items-center animate-bounce">
               <div className="bg-primary text-primary-foreground px-3 py-1 rounded-full shadow-lg text-xs font-bold flex items-center gap-1.5 mb-1">
-                <MapPin className="w-3.5 h-3.5" /> SBSC HVAC HQ
+                <MapPin className="w-3.5 h-3.5" /> HVAC HQ
               </div>
               <div className="w-4 h-4 bg-primary rotate-45 shadow-md -mt-2" />
             </div>
@@ -53,7 +53,7 @@ export default function ServiceAreaMapSection({
             <div className="absolute bottom-6 left-6 z-20 bg-background/95 backdrop-blur-md border border-border p-4 rounded-xl shadow-2xl max-w-xs w-full space-y-2">
               <div className="flex items-start justify-between">
                 <div>
-                  <h4 className="font-bold text-foreground text-sm">SBSC HVAC Services</h4>
+                  <h4 className="font-bold text-foreground text-sm">HVAC Services</h4>
                   <p className="text-xs text-muted-foreground mt-0.5">{businessAddress}</p>
                 </div>
               </div>
